@@ -1,9 +1,13 @@
+body{
+    margin:0;
+}
+
 
 /*Add a black background color to the top navigation*/
 .topnav{
     background-color: #333;
     overflow: hidden;
-   z-index: 3; 
+   
     
 }
 
@@ -34,9 +38,11 @@
 
 nav {
     text-transform: uppercase;
-    z-index: 3;
+    z-index: 8;
     position: fixed;
-    width: 99.15%;
+    width: 100%;
+    padding-bottom: 0px;
+    border-bottom:2px solid red ;
    }
 
 /* pizza image */
@@ -55,16 +61,17 @@ left:0;
 
 #logo{
 z-index:4;
-top:30px;
-right:100px;
+top:-50px;
+left:-110px;
 }
 
 #pizza-img{
     height: 130%;
     width: 100%;
-    background: url('../img/pizza-beer-2.jpg') no-repeat center center;
-    background-size: cover;
+    /*background: url('../img/pizza-beer-2.jpg') no-repeat center center;*/
     z-index: -1;
+    background-size: cover;
+
     
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -81,7 +88,7 @@ right:100px;
         transform: scale(1.1);
     }
     }
-    
+
 .menu{
     text-transform: capitalize;
     
