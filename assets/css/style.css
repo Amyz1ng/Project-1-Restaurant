@@ -3,7 +3,7 @@
 .topnav{
     background-color: #333;
     overflow: hidden;
-    
+   z-index: 3; 
     
 }
 
@@ -34,8 +34,10 @@
 
 nav {
     text-transform: uppercase;
-    
-}
+    z-index: 3;
+    position: fixed;
+    width: 99.15%;
+   }
 
 /* pizza image */
 #pizza-beer{
@@ -44,11 +46,25 @@ nav {
     overflow: hidden;
     position: relative;
 }
+
+img{
+position:absolute;
+top:0;
+left:0;
+}
+
+#logo{
+z-index:4;
+top:30px;
+right:100px;
+}
+
 #pizza-img{
     height: 130%;
     width: 100%;
     background: url('../img/pizza-beer-2.jpg') no-repeat center center;
     background-size: cover;
+    z-index: -1;
     
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -91,4 +107,8 @@ nav {
     margin: 1%;
     padding: 0.5%;
     color: blue;
+}
+/* list styles */
+ul {
+    list-style: none;
 }
