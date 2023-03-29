@@ -1,3 +1,4 @@
+
 /*Add a black background color to the top navigation*/
 .topnav{
     background-color: #333;
@@ -51,7 +52,7 @@ nav {
     
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
