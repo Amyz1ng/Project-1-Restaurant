@@ -176,7 +176,8 @@ ul > li {
 /* footer */
 
 footer{
-    height: 100px;
+background-color: #9999ff;
+
 }
 
 .social-networks{
@@ -197,8 +198,33 @@ footer{
 #times{
     width: 100%;
     position: center;
+    background-color: #9999ff;
 }
 
 #menu {
     text-align: center;
+}
+
+#contact + p {
+    text-transform: uppercase;
+}
+
+.left-contact {
+    width: 33.33%;
+    display: inline;
+    float: left;
+
+}
+.center-contact{
+    width: 33.33%;
+    display: inline-block;
+
+}
+    
+
+.right-contact {
+width: 33.33%;
+display: inline;
+float: right;
+
 }
