@@ -44,7 +44,10 @@ nav {
     padding-bottom: 0px;
     border-bottom:2px solid red ;
    }
-
+.reservation{
+    display: none!important;
+}
+   
 /* pizza image */
 #pizza-beer{
     height: 600px;
@@ -113,7 +116,7 @@ left:-110px;
     font-size: 200%;
     margin: 1%;
     padding: 0.5%;
-    color: blue;
+    color: white;
 }
 /* list styles */
 ul {
@@ -141,6 +144,30 @@ ul {
     text-align: left;
     display:block;
     float: right;
+}
+
+.left-dessert{
+float: left;
+display:block;
+width:33.33%;
+text-align: left;
+}
+
+.center-dessert{
+width:33.33%;
+text-align: left;
+display:inline-block;
+}
+
+.right-dessert{
+float:right;
+display:block;
+width:33.33%;
+text-align: left;
+}
+
+.desserts h2{
+    text-align: center;
 }
 
 ul > span {
@@ -175,9 +202,17 @@ ul > li {
 */
 /* footer */
 
-footer{
-background-color: #9999ff;
-
+.site-footer{
+    /*background-image: url(../img/footer-image.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    position: relative;
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
+    
 }
 
 .social-networks{
@@ -194,11 +229,14 @@ background-color: #9999ff;
     column-count: 4;
     column-gap: 0;
 }
-
+#contact{
+    color: #ddd;
+    font-size: large;
+}
 #times{
     width: 100%;
     position: center;
-    background-color: #9999ff;
+    color: #ddd;
 }
 
 #menu {
@@ -207,18 +245,21 @@ background-color: #9999ff;
 
 #contact + p {
     text-transform: uppercase;
+    color: white;
+    
 }
 
 .left-contact {
     width: 33.33%;
     display: inline;
     float: left;
-
+    color: white;
 }
+
 .center-contact{
     width: 33.33%;
     display: inline-block;
-
+    color: white;
 }
     
 
@@ -226,5 +267,5 @@ background-color: #9999ff;
 width: 33.33%;
 display: inline;
 float: right;
-
+color: #ddd;
 }
