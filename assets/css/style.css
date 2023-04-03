@@ -269,3 +269,41 @@ display: inline;
 float: right;
 color: #ddd;
 }
+
+/* FORM */
+form{
+    width: 90%;  /* change this if you want bar longer*/
+}
+.input-style {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 1px;
+    border: 2px solid #333;
+    box-sizing: border-box
+}
+
+.label-style{
+    color:#333;
+    font-weight:300; 
+    font-size: 20px;
+}
+
+.wrap {
+   margin-bottom: 15px;
+}
+
+
+label {
+    display: inline-block;
+}
+
+form h1{
+    text-align: center;
+}
