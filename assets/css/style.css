@@ -44,8 +44,18 @@ nav {
     padding-bottom: 0px;
     border-bottom:2px solid red ;
    }
-.reservation{
+/*.reservation{
     display: none!important;
+}*/
+
+.right-nav {
+    float:right;
+    text-align: right;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid red; 
+    position:relative;
+
 }
    
 /* pizza image */
@@ -272,7 +282,8 @@ color: #ddd;
 
 /* FORM */
 form{
-    width: 90%;  /* change this if you want bar longer*/
+    width: 50%;  
+    
 }
 .input-style {
     display: block;
@@ -306,4 +317,35 @@ label {
 
 form h1{
     text-align: center;
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+}
+
+/*Gallery*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    position: relative;
+}
+
+#photos > img {
+    width: 100%;
+    position: relative;
 }
