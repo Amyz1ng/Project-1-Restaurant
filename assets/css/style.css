@@ -1,6 +1,7 @@
 body{
     margin:0;
     background-color: #ffccb3;
+    width:100%;
 }
 
 
@@ -86,6 +87,7 @@ left:-110px;
     z-index: -1;
     background-size: cover;
 
+
     
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -118,25 +120,7 @@ left:-110px;
 .menu  i {
     color: red;
 }
- /* footer*/
 
- footer{
-    height: 150px;
- }
-.social-networks{
-    text-align: center;
-    
-}
-.social-networks > li{
-    display: inline-block;
-}
-
-.social-networks i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 0.5%;
-    color: white;
-}
 /* list styles */
 ul {
     list-style: none;
@@ -217,18 +201,45 @@ ul > li {
     padding-bottom: 19rem;
     position: relative;
     display: block;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
+    
 }
 
 .social-networks{
-    text-align: center;
-    position: relative;
+position:relative;
+text-align: center;
+/*left:216%;
+top: 130%;*/
+left:216%;
+top: 69%;
+
+    /*position: relative;
     bottom: -50px;
-    left: 42px;  
+    left:-42px;
+    text-align: center;*/
+   
+}
+.social-parent h2{
+text-align: center;
+position:relative;
+left:204%;
+top: 64%;
+color: #fafafa;
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+text-align: center;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+font-size: 150%;
+}
+
+.social-parent{
+    position:absolute;
+    height: 150px;
 }
 
 .social-networks > li{
-    display: inline;
+    display: inline-block;
 }
 
 .social-networks i{
@@ -236,7 +247,17 @@ ul > li {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    font-size: 200%;
+    margin: 1%;
+    padding: 0.5%;
+    color: white;
 }
+
+footer{
+    height: 115px; /* ORIGINAL IS 150px */
+ }
+
+
 #contact{
     color: #ddd;
     font-size: large;
@@ -326,7 +347,7 @@ form{
     border-radius: 4px;
     margin-left: 1px;
     border: 2px solid #333;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .label-style{
