@@ -4,7 +4,6 @@ body{
     width:100%;
 }
 
-
 /*Add a black background color to the top navigation*/
 .topnav{
     background-color: #333;
@@ -172,13 +171,24 @@ text-align: left;
 }
 .desserts{
     width: 100%;
-    
+    margin-top:50px;   
+    padding-top:400px;
     
 }
 .desserts h2{
     padding-top: 30px;
     text-align: center;
-    
+}
+
+/* NEW MENU LIST STYLING */ /* ----------------- CHANGE THIS ------------ */
+.starters p, h3{
+    margin:0;
+}
+.starters li {
+    padding-bottom: 15px;
+}
+.starters p{
+    font-style: italic;
 }
 
 ul > span {
@@ -188,7 +198,7 @@ ul > span {
 
 ul > li {
     margin-bottom: 5px;
-    font-weight: bold;
+   /* font-weight: bold;*/
 }
 
 /* footer */
@@ -246,6 +256,7 @@ font-size: 150%;
 
 footer{
     height: 120px; /* ORIGINAL IS 150px */
+    margin-top:200px; /* CHANGE THIS IS TEST */
  }
 
 #contact{
