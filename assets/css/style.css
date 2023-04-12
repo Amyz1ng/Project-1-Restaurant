@@ -52,7 +52,7 @@ nav {
 .right-nav {
     float:right;
     text-align: right;
-    background-color: red;
+    background-color: rgb(2, 1, 0);
     border-radius: 5px;
     border: 1px solid red; 
     position:relative;
@@ -255,8 +255,9 @@ font-size: 150%;
 }
 
 footer{
-    height: 125px; /* ORIGINAL IS 150px */
-    margin-top:200px; /* CHANGE THIS IS TEST */
+    height: 148px; /* ORIGINAL IS 150px */
+    margin:0; /* CHANGE THIS IS TEST */
+    padding:0;
  }
 
 #contact{
@@ -277,6 +278,10 @@ footer{
     text-align: center;
     box-sizing: border-box;
     
+}
+
+#times {
+    padding-top:30px;
 }
 
 #times h1 {
@@ -379,7 +384,7 @@ header h1{
 header p{
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h2{
@@ -400,4 +405,7 @@ h2{
     width: 100%;
     position: relative;
     line-height: 0;
+    display: block;
+    height: 320px
+
 }
