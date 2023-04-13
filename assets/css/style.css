@@ -109,6 +109,7 @@ left:-110px;
     color: black;
     
     
+    
        
 }
 .menu h1{
@@ -383,12 +384,14 @@ header h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     text-align: center;
+    background-color:DodgerBlue;
 }
 
 header p{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
+    background-color:Tomato;
 }
 
 h2{
