@@ -341,6 +341,10 @@ form{
     width: 50%;  
     
 }
+
+.reservations{
+    padding-left: 25%;
+}
 .input-style {
     display: block;
     width: 100%;
