@@ -252,7 +252,6 @@ ul > li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 19rem;
     position: relative;
     /*display: block;*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
@@ -289,9 +288,7 @@ font-size: 150%;
 }
 
 footer{
-    height: 148px; /* ORIGINAL IS 150px */
-    margin:0; /* CHANGE THIS IS TEST */
-    padding:0;
+    height: 430px; /* ORIGINAL IS 150px */
  }
 
  .wrapper{
