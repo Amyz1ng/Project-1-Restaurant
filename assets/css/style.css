@@ -134,38 +134,67 @@ ul {
 }
 .starters {
     padding-top: 30px;
-    width: 33.33%;
+    width: 50%;
     text-align: center;
     display:block;
     float: left;   
 }
 
+
 .mains {
     padding-top: 30px;
-    width: 33.33%;
+    width: 50%;
     text-align: center;
     display:inline-block;
 }
 
+.sides{
+    text-align: center;
+    background-color: tomato;
+    font-family: 'Oswald', sans-serif;
+    color: #040404;
+    font-size: 28px;
+    border-radius: 25px;
+    width: 50%;
+    height: 155px;
+    margin: auto;
+    
+}
+.sides h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin: auto;
+    padding: 0%;
+}
+
+.sides h4 {
+    word-spacing: 50px;
+}
+
+.sides p{
+    word-spacing: normal;
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
 .drinks {
     padding-top: 30px;
-    width: 33.33%;
     text-align: center;
-    display:block;
-    float: right;
+    
 }
 
 .left-dessert{
 float: left;
 display:block;
 width:33.33%;
-text-align: left;
+text-align: center;
 }
 
 .center-dessert{
 
 width:33.33%;
-text-align: left;
+text-align: center;
 display:inline-block;
 }
 
@@ -173,12 +202,13 @@ display:inline-block;
 float:right;
 display:block;
 width:33.33%;
-text-align: left;
+text-align: center;
 }
 .desserts{
     width: 100%;
     margin-top:0px;   
-    padding-top:200px;
+    padding-top:30px;
+    text-align: center;
     
 }
 .desserts h2{
@@ -194,6 +224,16 @@ text-align: left;
     padding-bottom: 15px;
 }
 .starters p{
+    font-style: italic;
+}
+
+.mains p, h3{
+    margin:0;
+}
+.mains li {
+    padding-bottom: 15px;
+}
+.mains p{
     font-style: italic;
 }
 
@@ -367,7 +407,7 @@ form{
 }
 
 .label-style{
-    color:#333;
+    color:hsl(0, 22%, 90%);
     font-weight:300; 
     font-size: 20px;
 }
@@ -419,5 +459,36 @@ h2{
     line-height: 0;
     display: block;
     height: 320px
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+.menu {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+}
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+#menu {
+    column-count: 2;
+        
+}
+#photos{
+    columns: 3;
+}
+}
+
+    /* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #menu{
+        columns: 2;
+    }
+    #photos {
+        column-count: 2;
+    }
 
 }
