@@ -290,6 +290,7 @@ font-size: 150%;
 
 footer{
     height: 450px; /* ORIGINAL IS 150px */
+    padding-top:30px;
  }
 
  .wrapper{
