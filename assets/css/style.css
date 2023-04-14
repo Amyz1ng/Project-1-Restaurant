@@ -1,7 +1,12 @@
 body{
     margin:0;
-    background-color: #ffccb3;
+    background-image: url(..//img/pxfuel\ \(3\).jpg);
+    background-position: center;
     width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 
 /*Add a black background color to the top navigation*/
@@ -106,7 +111,7 @@ left:-110px;
 
 .menu{
     text-transform: capitalize;
-    color: black;
+    color: white;
     
     
     
