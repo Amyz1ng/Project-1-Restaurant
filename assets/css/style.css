@@ -253,7 +253,7 @@ ul > li {
     background-position: center;
     background-size: cover;
     position: relative;
-   /* padding-bottom: 19rem;*/
+    padding-bottom: 2rem; /* consider changing, also footer height play around */
     display: block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
 
@@ -289,7 +289,7 @@ font-size: 150%;
 }
 
 footer{
-    height: auto; /* ORIGINAL IS 150px */
+    /*height: 450px; /* ORIGINAL IS 150px */
     padding:0;
     margin:0;
  }
@@ -322,6 +322,8 @@ footer{
     text-align: center;
     box-sizing: border-box;
     display: inline-block;
+    height:auto;
+    
 }
 
 #times {
