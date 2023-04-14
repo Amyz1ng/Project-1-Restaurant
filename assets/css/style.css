@@ -313,7 +313,7 @@ footer{
     top: 0;
     left: 0;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 #times div {
@@ -328,6 +328,7 @@ footer{
 
 #times {
     padding-top:30px;
+    display: inline-block;
 }
 
 #times h1 {
@@ -368,19 +369,6 @@ footer{
     color: white;
 }
 
-.center-contact{
-    width: 33.33%;
-    display: inline-block;
-    color: white;
-}
-    
-
-.right-contact {
-width: 33.33%;
-display: inline;
-float: right;
-color: #ddd;
-}
 
 /* FORM */
 form{
@@ -461,9 +449,9 @@ h2{
     height: 320px
 }
 
-/* Media queries */
+/* Media queries 
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1200px wide and down 
 @media screen and (max-width: 1200px) {
 .menu {
     width: 65%;
@@ -471,7 +459,7 @@ h2{
     margin: 0 auto;
 }
 }
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down 
 @media screen and (max-width: 950px) {
 #menu {
     column-count: 2;
@@ -482,7 +470,7 @@ h2{
 }
 }
 
-    /* For small screen sizes below 800px width */
+    /* For small screen sizes below 800px width 
 @media screen and (max-width: 800px) {
     #menu{
         columns: 2;
@@ -491,4 +479,4 @@ h2{
         column-count: 2;
     }
 
-}
+}*/
