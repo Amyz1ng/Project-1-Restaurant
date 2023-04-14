@@ -289,7 +289,7 @@ font-size: 150%;
 }
 
 footer{
-    height: 450px; /* ORIGINAL IS 150px */
+    height: auto; /* ORIGINAL IS 150px */
     padding:0;
     margin:0;
  }
