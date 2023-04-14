@@ -253,7 +253,8 @@ ul > li {
     background-position: center;
     background-size: cover;
     position: relative;
-    /*display: block;*/
+    padding-bottom: 19rem;
+    display: block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
 
 }
@@ -288,11 +289,12 @@ font-size: 150%;
 }
 
 footer{
-    height: 430px; /* ORIGINAL IS 150px */
+    height: 148px; /* ORIGINAL IS 150px */
  }
 
  .wrapper{
     overflow: hidden;
+    padding-top:10px;
  }
 .left-contact{
     color: #ddd;
