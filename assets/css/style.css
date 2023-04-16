@@ -519,6 +519,21 @@ h2{
   @media screen and (max-width: 600px) {
     #logo {
       max-width:100% ;
-      max-height: 500px;
+      max-height: 300px;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    #photos {
+        column-count: 2;
+    }
+
+    #photos img{
+        max-height: 200px;
+    }
+
+    #times div{
+        width: 50%;
+    }
+  }
+
