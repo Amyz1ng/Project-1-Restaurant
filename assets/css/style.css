@@ -174,7 +174,7 @@ ul {
     display:inline-block;
     padding-top:30px;
     width:100%;
-
+    padding-bottom: 5px;
 }
 .sides h2{
     font-family: 'Bebas Neue', cursive;
@@ -242,6 +242,14 @@ float:left;
 .desserts h2{
     padding-top: 30px;
     text-align: center;
+}
+.desserts h3{
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+.desserts li{
+    padding:2px;
 }
 
 
@@ -365,6 +373,7 @@ footer{
 #times {
     width:100%;
     text-align: center;
+
 
 }
 
@@ -523,7 +532,7 @@ h2{
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     #photos {
         column-count: 2;
     }
@@ -535,6 +544,29 @@ h2{
     #times div{
         width: 50%;
     }
+
+    #times h2 {
+        float:left;
+        width:50%;
+        margin:0;
+        padding-right: 15px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    #times h3 {
+        float:left;
+        width:50%;
+        margin: 0;
+       padding-left: 15px;
+        box-sizing: border-box;
+        white-space: nowrap;
+        text-align: left;
+    }
+
+    .sides{
+width:100%;
+    }
   }
 
-1
+ 
