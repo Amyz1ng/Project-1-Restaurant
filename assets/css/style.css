@@ -152,8 +152,11 @@ ul {
     margin-left:1%;
     margin-right:1%;
 }
-
-
+@media screen and (max-width: 600px) {
+    .starters, .mains {
+      width: 96%;
+    }
+  }
 
 .sides{
     text-align: center;
@@ -202,22 +205,29 @@ ul {
 width:33.33%;
 text-align: center;
 float:left;
-margin:auto;
+
 }
 
 .center-dessert{
 width:33.33%;
 text-align: center;
 float:left;
-margin:auto;
+
 }
 
 .right-dessert{
 width:33.33%;
 text-align:center;
 float:left;
-margin:auto;
+
 }
+
+
+@media screen and (max-width: 600px) {
+    .center-dessert, .left-dessert, .right-dessert {
+      width: 100%;
+    }
+  }
 
 .desserts{
     width: 100%; 
@@ -497,4 +507,18 @@ h2{
         column-count: 2;
     }
 
-}
+}*/
+
+@media screen and (max-width: 600px) {
+    #pizza-beer {
+      max-width:100% ;
+      max-height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #logo {
+      max-width:100% ;
+      max-height: 500px;
+    }
+  }
