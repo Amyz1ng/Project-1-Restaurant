@@ -81,7 +81,7 @@ left:0;
 #logo{
 width: 400px;
 height: 400px;
-position: absolute;
+position: relative;
 padding-top: 40px;
 padding-left: 10px;
 }
