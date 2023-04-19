@@ -1,108 +1,94 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+PITZA-BERRA
 
-Welcome Amy Sawyer,
+This website i have created is for a resturant of my own creation that i would like to have someday.
+i have made it for a wide target audiance of food lovers who also enjoy drinking, i wanted to encorporate a mix and match idea so that it would suite everyone's satisfaction.
+weither its to just come in and relax have a Pint or to come and enjoy a luxurios meal!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+users of the website can find all the infomation they need to know about my resturant, such as how to be in contact, Opening times and days we operate, our social media for updates on specials, make reservations 
+![responsive](https://user-images.githubusercontent.com/124196828/232959701-6fb808a2-e220-4cac-96ac-e34ee68ad046.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+FEATURES
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+at the top of the page i have my navigation bar, which contains the home, Menu, Gallery, contact and reservations
+each navigation will take you to the section within the page, however the Reservation nav will take you to a new Tab to make a reservation for the resturant.
+Navigation on Social media links (facebook, twitter, instagram) which will open in new tabs to each individual social media's
 
-`python3 -m http.server`
+![nav bar](https://user-images.githubusercontent.com/124196828/232961155-7e0b053d-d51b-4161-ba67-7ca7c5c619ab.jpg)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+The header
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+the header shows the name of the business,
+the header has a short introduction on the business what we serve and our main target of the resturant
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+![header](https://user-images.githubusercontent.com/124196828/232961290-74020d7d-b812-49ae-8c24-190501948d99.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+The Body 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Shows the important infomation our main products of our restuarant which is the MENU 
+we show a list of items avaliabale for purchase, Starters, Mains, Desserts and Drink menu
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+![body](https://user-images.githubusercontent.com/124196828/232961514-c922216c-f079-45c1-b180-7582d462f79c.jpg)
 
-## Release History
+Reservation Form
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+the reservation form allows a user to interact with the form to make a reservation to get in direct contact with us 
+this form allows the user to select a Date, Time, number of people, and to fill in their details, it requires infomation before a user may submit their reservation
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![form ](https://user-images.githubusercontent.com/124196828/232960854-0b7139bd-adf4-4082-a3b2-2b21f128b9de.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Contact us Section
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The contact section encourages users to get in contact, we provide a phone number, email address and website address
+and a location address
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The contact section contains Social media icons,
+Opening times and days we operate
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+the contact section is  valuable for the user as it gives them the ability to find the contact infomation easily if they need it
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![contact us](https://user-images.githubusercontent.com/124196828/232960952-10afeb7a-4b5d-4d53-a855-35916f422d39.jpg)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+i tested that this page works in different browsers, chrome, brave, firefox, microsoft edge
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+i have confirmed that this project is responsive, looks good and functions on all screen sizes
+using the Devtools device toolbar
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+i confirm that the navigation, header, reservation, contact and gallery text is all readable and easy to understand
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+i confirm that the form works: requires entries in every feild, will only accept email address in the email feild and the submit button works
 
-------
+Bugs
+No bug found 
 
-## FAQ about the uptime script
+validator Testing
 
-**Why have you added this script?**
+HTML
+i had a couple of errors with my HTML format when running it through the W3c validator
+warning errors were shown but i have fixed most of them.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![w3c html validator](https://user-images.githubusercontent.com/124196828/232960574-991acfe6-ec10-483b-91d7-246e81cc9482.jpg)
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+CSS 
+No errors were found when passing through the offical (jigsaw) validator
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![w3 validator](https://user-images.githubusercontent.com/124196828/232960599-5502f562-3ddf-4ce2-83c6-b0173d70cba9.jpg)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+Accessibility
+i confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+i have run a test for mobile which is the first image and the second image is the lighthouse test on desktop
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![lighthouse- mobile devices](https://user-images.githubusercontent.com/124196828/232959927-a8c56915-c2b9-4403-9da9-7dbd692e63b8.jpg)
+![lighthouse-desktop](https://user-images.githubusercontent.com/124196828/232959943-652ad353-d7fa-4ac4-9040-ce0aa46e7ae7.jpg)
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
