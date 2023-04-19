@@ -92,10 +92,5 @@ i have run a test for mobile which is the first image and the second image is th
 ![lighthouse- mobile devices](https://user-images.githubusercontent.com/124196828/232959927-a8c56915-c2b9-4403-9da9-7dbd692e63b8.jpg)
 ![lighthouse-desktop](https://user-images.githubusercontent.com/124196828/232959943-652ad353-d7fa-4ac4-9040-ce0aa46e7ae7.jpg)
 
-CONTENT
-
-The code for the hero image Zoom effect was taken from Love running project The code to make social media links was taken from Love running project the Idea of the footer took inspiration from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
-
-Media
 
 the image in the Header was taken from https://axi0s.wordpress.com/2016/03/14/pizza-beer/ The images in the Gallery was Taken from Google Images word search the image in the footer was taken from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
