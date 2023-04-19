@@ -550,4 +550,20 @@ width:100%;
     }
   }
 
- 
+.pizza-video{
+    width:100%;
+    padding:10px 0;
+}
+
+.video{
+    display: block;
+    margin:0 auto;
+    width:50%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .video {
+   width: 70%;
+    }
+}
