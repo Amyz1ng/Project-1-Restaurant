@@ -79,9 +79,11 @@ left:0;
 }
 
 #logo{
-z-index:4;
-top:-50px;
-left:-110px;
+width: 400px;
+height: 400px;
+position: absolute;
+padding-top: 40px;
+padding-left: 10px;
 }
 
 #pizza-img{
@@ -155,6 +157,14 @@ ul {
 @media screen and (max-width: 600px) {
     .starters, .mains {
       width: 96%;
+    }
+
+    #logo{
+width: 100px;
+height: 100px;
+position: absolute;
+padding-top: 100px;
+padding-left: 10px;
     }
   }
 
@@ -409,6 +419,7 @@ footer{
 /* FORM */
 form{
     width: 50%;  
+    color: #fafafa;
     
 }
 
