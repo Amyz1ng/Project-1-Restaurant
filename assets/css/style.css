@@ -489,53 +489,40 @@ h2{
 }
 
 .video{
- margin: 0;
-  padding:0;
   width: 100%;
   display:inline-block;
+  height: auto;
   clear:both;
-  height: 200px;
-
-
+  padding-top: 6px;
 }
 .video video{
     width: 100%;
-    padding:0;
-    margin:0;
-    object-fit: contain;
-    clear:both;
-    
-    
 }
 
 .pizza-video{
     float:left;
     width: 25%;
-    height: 90%;
-    
+    overflow: hidden;
 }
 
 .guiness-video{
     float:left;
     width: 25%;
     overflow: hidden;
-    height: 100%;
-    
 }
 .jager-video{
     float:left;
     overflow: hidden;
     width: 25%;
-    height: 100%;
-    
 }
 .salad-video{
     float:left;
     width: 25%;
     overflow: hidden;
-    height: 100%;
-    object-fit: contain;
-    
+ }
+
+ .salad-video video{
+    min-width: 107%;
  }
 /* Media queries */
 
@@ -554,12 +541,7 @@ h2{
     .starters, .mains {
      width: 96%;
      }
-     .video {
-        width: 50%;
-        columns: 2;
-         }
-    
-  }
+    }
   /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #photos {
