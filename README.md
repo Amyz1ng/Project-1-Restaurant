@@ -89,7 +89,10 @@ Accessibility
 i confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 i have run a test for mobile which is the first image and the second image is the lighthouse test on desktop
 
+MOBILE
 ![lighthouse- mobile devices](https://user-images.githubusercontent.com/124196828/232959927-a8c56915-c2b9-4403-9da9-7dbd692e63b8.jpg)
+
+DESKTOP
 ![lighthouse-desktop](https://user-images.githubusercontent.com/124196828/232959943-652ad353-d7fa-4ac4-9040-ce0aa46e7ae7.jpg)
 
 
