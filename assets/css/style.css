@@ -555,7 +555,7 @@ h2{
     }
 
     #photos img{
-        max-height: 200px;
+        max-height: 140px;
     }
 
     #times div{
@@ -585,3 +585,9 @@ h2{
 width:100%;
     }
   }
+
+  @media screen and (orientation: landscape) {
+    #photos {
+        column-count: 4;
+    }
+}
