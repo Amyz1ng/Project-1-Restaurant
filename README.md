@@ -1,4 +1,5 @@
-# PITZA-BERRA https://amyz1ng.github.io/Project-1-Restaurant/
+# PITZA-BERRA 
+https://amyz1ng.github.io/Project-1-Restaurant/
 
 This website I have created is for a restaurant of my own creation that I would like to have someday.
 I have made it for a wide target audience of food lovers who also enjoy drinking, I wanted to encorporate a mix and match idea so that it would suite everyone's satisfaction.
@@ -17,6 +18,12 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 
 ![nav bar](https://user-images.githubusercontent.com/124196828/232961155-7e0b053d-d51b-4161-ba67-7ca7c5c619ab.jpg)
 
+## User Stories
+As a user,I want to understand what the business is at first look.
+As a user,I want to see what is avaliable to order.
+As a user,I want to be able to get in contact with the busnines through a contact. 
+As a user,I want to be able to find the business with a location.
+AS a user,I want to be able to make a reservation using a form.
 
 ## THE HEADER
 
