@@ -20,9 +20,13 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 
 ## User Stories
 As a user,I want to understand what the business is at first look.
+
 As a user,I want to see what is avaliable to order.
+
 As a user,I want to be able to get in contact with the busnines through a contact. 
+
 As a user,I want to be able to find the business with a location.
+
 AS a user,I want to be able to make a reservation using a form.
 
 ## THE HEADER
