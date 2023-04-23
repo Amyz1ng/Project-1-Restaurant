@@ -97,8 +97,6 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 - Lighthouse for performance review.
 - AmIResponsive used to check site was responsive on different screen sizes.
 
-
-
 # TESTING  
 I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge.
 I have confirmed that this project is responsive, looks good and functions on all screen sizes
