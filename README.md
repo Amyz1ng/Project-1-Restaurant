@@ -94,7 +94,6 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 - GitHub used to host repository.
 - GitPod used to develop project and orgainse version control.
 - GitHub Pages used to deploy the site.
-- Balsamiq used to create wireframes.
 - Lighthouse for performance review.
 - AmIResponsive used to check site was responsive on different screen sizes.
 
