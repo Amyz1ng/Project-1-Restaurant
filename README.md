@@ -63,37 +63,16 @@ The contact section is  valuable for the user as it gives them the ability to fi
 
 ## Design  
 ### Colour Scheme  
-<!--Colours used I wanted to stick to a muted colour palette for this site, utilizing the white background as much as possible.
-
-### Typography  
-'Gudea' is the font used for the body of the site with san serif used a fallback. This font is simple and easy to read while adding a modern quality.
-'Allura' is the font used for the business name in the header and footer of the site with script used a fallback. This font is elegent when used sparingly through the site.
+Colours used I wanted to stick to a tasty colour palette for this site, utilizing the hero image background as much as possible to draw a user in and give a direct understanding to the website from the get go of launch.
 
 ### Imagery  
 Visual representations are an important part of the user experience for this project, used to draw a potential client in.
 
-The welcome area image is used to convey a feeling rather than be informative.
-The treatments specific images are used to show either the products/equipment used, or the treamtnet in action.
+The welcome  image is used to convey a feeling of a broader sense of Palate, rather than be informative.
 The logo in the header is used to build the business brand, a simple icon that can be used across multipl platforms.
 
 ### Overall Feel  
-The main objective in creating the site was to have it look elegant and simplistic while still providing the user with all of the information that may need.
-At no point do I want the user to feel 'boxed-in' by too many elements on screen.-->
-
-## Wireframes  
-<!-- All Wireframes were designed for laptop/computer, iPad/tablet and phone display.
-
-Original wireframes:
-Homepage wireframes here
-Treatments wireframes here
-Contact Us wireframes here
-As the project progressed, there were changes to the homepage.
-
-Updated wirefeames:
-Homepage wireframes here
-Treatments wireframes here
-Contact Us wireframes here-->
-
+The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
 
 # FEATURES  
 ## Current Features  
@@ -103,8 +82,6 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 
 ![nav bar](https://user-images.githubusercontent.com/124196828/232961155-7e0b053d-d51b-4161-ba67-7ca7c5c619ab.jpg)
 
-## Future Features  
-<!-- dddddddddddddddddddddddddddddddddddddddddddd-->  
 
 # Technologies Used  
 ## Languages Used  
@@ -112,17 +89,12 @@ Navigation on Social media links (Facebook, Twitter, Instagram) which will open 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs Used  
-<!-- - Bootstrap used for responsive design.-->
 - Font Awesome used for icons.
-<!-- - Google Fonts used to import 'Gudea'& 'Allura' fonts. -->
-<!-- - jQuery used in conjunction with Bootstrap for responsive nav bar.
-<!-- - Google Maps used to import business location to the page.-->
+- Google Fonts used to import 'Lato, Oswald, Audiowide, Amatic SC,Bebas Neue' fonts.
 - GitHub used to host repository.
 - GitPod used to develop project and orgainse version control.
 - GitHub Pages used to deploy the site.
-<!--- Animate.css used for intro animations on navbar.-->
-<!-- - Balsamiq used to create wireframes.-->
-- imgur used for hosting images that I didn't want hosted in the repository.
+- Balsamiq used to create wireframes.
 - Lighthouse for performance review.
 - AmIResponsive used to check site was responsive on different screen sizes.
 
@@ -188,9 +160,10 @@ The map is clearly displayed on all devices. By clicking 'view larger map' the l
 I tested on a few decides I have at home, as listed below:
 
 #### Phone:
-- Samsung Galaxy S9
+- Oppo Reno 5
     -  Google Chrome
     - Samsung Internet
+    
 
 
 #### Computer
@@ -229,21 +202,13 @@ This site was deployed through GitHub Pages using the following steps:
 8. Press Enter to create your local clone.
 
 # Credits
-## Code
-<!--Bootstrap example page was used as a skeleton when strating the NavBar used across all pages. This was then edied to what I needed. This is the example that I used. Commented in HTML for clarity.
-
-Bootstrap example page was used as a skeleton when starting treatments.html and the card layout. This was then edited to what I needed. This is the example that I used. Commented in HTML for clarity.-->
 
 ## CONTENT
 The code for the hero image Zoom effect was taken from Love running project The code to make social media links was taken from Love Running project the Idea of the footer took inspiration from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
 
 ## MEDIA
-The image in the Header was taken from https://axi0s.wordpress.com/2016/03/14/pizza-beer/ The images in the Gallery was Taken from Google Images word search the image in the footer was taken from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
+The image in the Header was taken from https://axi0s.wordpress.com/2016/03/14/pizza-beer/ The images in the Gallery was Taken from Google Images word search the image in the footer was taken from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html.
 
+The videos in my gallery were taken from https://www.pexels.com/search/videos/
 
-## Acknowledgements
-<!--Thanks to Lisa for being the go-between for myself and Angelika for the first while.
-A massive thank you to my family and friends that tesed throughout, I apologize for all of the harrassment and appreciate all of your efforts.
-A shout out to my mam for learning to make an epic cup of coffee and delivering them to my desk!
-A thank you to my mentor Antonio Rodriguez for the helpful direction in starting this project and all of the helpful resources you provided that helped throughout.-->
 
