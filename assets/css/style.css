@@ -50,9 +50,6 @@ nav {
     padding-bottom: 0px;
     border-bottom:2px solid rgb(228, 84, 84) ;
    }
-/*.reservation{
-    display: none!important;
-}*/
 
 .right-nav {
     float:right;
@@ -90,12 +87,9 @@ padding-left: 10px;
 #pizza-img{
     height: 130%;
     width: 100%;
-    /*background: url('../img/pizza-beer-2.jpg') no-repeat center center;*/
     z-index: -1;
     background-size: cover;
 
-
-    
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 7s;
@@ -134,7 +128,7 @@ padding-left: 10px;
     margin:0;
 }
 
-/* list styles */
+/* Menu list styles */
 ul {
     list-style: none;
     margin: 0;
@@ -222,13 +216,6 @@ float:left;
 
 }
 
-
-@media screen and (max-width: 600px) {
-    .center-dessert, .left-dessert, .right-dessert {
-      width: 100%;
-    }
-  }
-
 .desserts{
     width: 100%; 
     padding-top:30px;
@@ -253,8 +240,6 @@ float:left;
 }
 
 
-
-/* NEW MENU LIST STYLING */ /* ----------------- CHANGE THIS ------------ */
 .starters p, h3{
     margin:0;
     
@@ -286,18 +271,18 @@ ul > span {
 
 ul > li {
     margin-bottom: 5px;
-   /* font-weight: bold;*/
+   
 }
 
 /* footer */
 
 .site-footer{
-    /*background-image: url(../img/footer-image.jpg);*/
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-    padding-bottom: 2rem; /* consider changing, also footer height play around */
+    padding-bottom: 2rem; 
     display: block;
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url(../img/footer-image.jpg);
 
@@ -306,7 +291,6 @@ ul > li {
 .social-parent{
     text-align: center;
     width:50%;
-   /* margin-right:20%;*/
     float:right;
     }
     
@@ -333,7 +317,6 @@ font-size: 150%;
 }
 
 footer{
-    /*height: 450px; /* ORIGINAL IS 150px */
     padding:0;
     margin:0;
  }
@@ -350,7 +333,7 @@ footer{
     text-transform: uppercase;
     text-align: center;
     float:left;
-   /* margin-left:20%;*/
+  
 }
 
 .left-contact + p {
@@ -542,12 +525,19 @@ h2{
      width: 96%;
      }
     }
-  /* For medium screen sizes from 950px wide and down */
+
+    .center-dessert, .left-dessert, .right-dessert {
+          width: 100%;
+        }
+      
+ 
+    /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #photos {
         column-count: 2;
     }
 }
+/* For larger screen sizes*/
 
   @media screen and (max-width: 1200px) {
     #photos {
