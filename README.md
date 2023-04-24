@@ -134,23 +134,19 @@ I have run a test for mobile which is the first image and the second image is th
 
 
 ## Testing User Stories from (UX) Section  
-<!--As a user, I want to be able to understand the business brand at a first look.
+As a user, I want to be able to understand the business brand at a first look.
 
 The welcome area on the hompage looks good on all devices. This is the main introduction to the brand and sets a nice tone for the business brand.
-As a user, I want to be able to see the prices of products without having to search through various pages.
 
-The price list is clear and visable on the home page.
-As a user, I want to be able to access information about the various beauty treatments available to me.
+As a user, I want to be able to access information about the various food items available to me.
 
-Treatments have their own page, laid out in cards to allow the user to browse through. 'Read More' option is available and opens a modal with further information.
-As a user, I want to be able to contact someone to ask about specific treatments and understand if they are appropriate for me.
+The menu has their own page. 
+As a user, I want to be able to contact someone to place a food order or make a reservation.
 
-The contact form allows the user to select which treatment they are interested and sent a message to salon with their question.
-Clicking the phone number on the contact page will open the dial app on a mobile to allow the cutomer to call for instant contact with the salon.
+The contact form allows the user to select which day, time and how many people you would like to book for. 
+
 Social link on the footer onall pages will allow the user to PM or DM the business through social media.
 As a user, I want to be able to be able to find the business location.
-
-The map is clearly displayed on all devices. By clicking 'view larger map' the location will upen up in Google Maps (if app is installed on their device).-->
 
 ## Further Testing
 ### Personal Testing
