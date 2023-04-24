@@ -57,7 +57,7 @@ The contact section is  valuable for the user as it gives them the ability to fi
 ## User Stories  
 - As a user, I want to understand what the business is at first look.  
 - As a user, I want to see what is avaliable to order.  
-- As a user, I want to be able to get in contact with the busnines through a contact.   
+- As a user, I want to be able to get in contact with the business through a contact.   
 - As a user, I want to be able to find the business with a location.  
 - As a user, I want to be able to make a reservation using a form.  
 
@@ -143,7 +143,7 @@ As a user, I want to be able to access information about the various food items 
 The menu has their own page. 
 As a user, I want to be able to contact someone to place a food order or make a reservation.
 
-The contact form allows the user to select which day, time and how many people you would like to book for. 
+The reservation form allows the user to select which day, time and how many people you would like to book for. 
 
 Social link on the footer onall pages will allow the user to PM or DM the business through social media.
 As a user, I want to be able to be able to find the business location.
@@ -197,10 +197,16 @@ This site was deployed through GitHub Pages using the following steps:
 # Credits
 
 ## CONTENT
-The code for the hero image Zoom effect was taken from Love running project The code to make social media links was taken from Love Running project the Idea of the footer took inspiration from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
+The code for the hero image Zoom effect was taken from Love running project The code to make social media links was taken from Love Running project.   
+
+The Idea of the footer design took inspiration from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html
 
 ## MEDIA
-The image in the Header was taken from https://axi0s.wordpress.com/2016/03/14/pizza-beer/ The images in the Gallery was Taken from Google Images word search the image in the footer was taken from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html.
+The image in the Header was taken from https://axi0s.wordpress.com/2016/03/14/pizza-beer/      
+
+The images in the Gallery were taken from Google Images word search.  
+
+The image in the footer was taken from https://www.tooplate.com/templates/2129_crispy_kitchen/index.html.
 
 The videos in my gallery were taken from https://www.pexels.com/search/videos/
 
